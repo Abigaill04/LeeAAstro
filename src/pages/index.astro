@@ -1,5 +1,10 @@
 ---
-
+import "../styles/global.css"
+import PageHeader from "../components/PageHeader.astro";
+import Features from "../components/Features.astro";
+import PageContent from "../components/PageContent.astro";
+import Semesters from "../components/Semesters.astro";
+import PageFooter from "../components/PageFooter.astro";
 ---
 
 <!DOCTYPE html>
@@ -20,182 +25,21 @@
         pagefooter
     -->
 
-    <!-- Begin Pageheader -->
-    <header id="pageheader">
-        pageheader
-    </header>
+	<PageHeader />
 
-    <!-- End Pageheader -->
+<!-- Begin Showcase -->
 
-    <!-- Begin Showcase -->
+<section id="showcase">showcase</section>
 
-    <section id="showcase">
-        showcase
-    </section>
+<!-- End Showcase -->
 
-    <!-- End Showcase -->
+<Features />
 
-    <!-- Begin Features -->
+<PageContent />
 
-    <section id="features">
-        features
-    </section>
+<Semesters />
 
-    <!-- End Features -->
+<PageFooter/>
 
-    <!-- Begin Pagecontent -->
-
-    <main id="pagecontent">
-        pagecontent
-    </main>
-
-    <!-- End Pagecontent -->
-
-    <!-- Begin Semesters -->
-
-    <section id="semesters">
-        semesters
-    </section>
-
-    <!-- End Semesters -->
-
-    <!-- Begin Pagefooter -->
-
-    <footer id="pagefooter">
-        pagefooter
-    </footer>
-
-    <!-- End Pagefooter -->
 </body>
 </html>
-
-<style>
-	/* Media Queries */
-	@media only screen and (min-width:320px)
-	{
-		body
-		{
-			background-color: magenta;
-		}
-	}
-	
-	@media only screen and (min-width:480px)
-	{
-		body
-		{
-			background-color: yellow;
-		}
-	}
-	
-	@media only screen and (min-width:768px)
-	{
-		body
-		{
-			background-color: lime;
-		}
-	}
-
-	@media only screen and (min-width:1024px)
-	{
-		body
-		{
-			background-color: coral;
-		}
-	}
-
-	@media only screen and (min-width:1200px)
-	{
-		body
-		{
-			background-color: steelblue;
-		}
-	}
-
-	/* Basic Style */
-	:root
-	{
-		--color-primary:red;
-		--color-secondary:blue;
-	}
-
-	html
-	{
-		font-size: 62.5%;  
-
-		/* Allows you to use rems instead of pixels for sizing */
-		/* 
-		Examples
-		0.5rem = 5px 
-		1rem = 10px
-		2rem = 20px
-		6rem = 60px
-		*/
-	}
-
-	/* Browser Reset */
-	*, *::before, *::after
-	{
-		margin: 0;
-		padding: 0;
-		box-sizing: border-box;
-	}
-
-	/* Easy Pixel Calculation With Rem Units*/
-	body
-	{
-		font-size: 1.6rem;
-	}
-
-	/* Fix Browser Bounce on Macs */
-	#body
-	{
-		overflow-x: auto;
-		width: 100%;
-		overscroll-behavior: none;
-	}
-
-
-	 /* Main Style */
-	#pageheader
-	{
-		background-color: lightcoral;
-		min-height: 200px;
-		padding: 1rem;
-	}
-
-	#showcase
-	{
-		background-color: lightsalmon;
-		min-height: 200px;
-		padding: 1rem;
-	}
-
-	#features
-	{
-		background-color: lightgoldenrodyellow;
-		min-height: 200px;
-		padding: 1rem;
-	}
-
-	#pagecontent
-	{
-		background-color: lightgreen;
-		min-height: 200px;
-		padding: 1rem;
-	}
-
-	#semesters
-	{
-		background-color: lightblue;
-		min-height: 200px;
-		padding: 1rem;
-	}
-
-	#pagefooter
-	{
-		background-color: lightpink;
-		min-height: 200px;
-		padding: 1rem;
-	}
-
-</style>

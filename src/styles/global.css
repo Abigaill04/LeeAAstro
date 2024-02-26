@@ -1,0 +1,115 @@
+:root {
+--color-primary: green;
+--color-secondary: blue;
+}
+html {
+font-size: 62.5%;
+/* Allows you to use rems instead of pixels for sizing */
+/*
+.5rem = 5px
+1.0rem = 10px
+1.6rem = 16px
+2.0rem = 20px
+6.0rem = 60px
+*/
+}
+/* Browser Reset */
+*,
+*::before,
+*::after {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/* Easy Pixel Calculations with Rem Units */
+body {
+font-size: 1.6rem;
+}
+/* Fix Browser Bounce on Macs */
+body {
+overflow-x: auto;
+width: 100%;
+overscroll-behavior: none;
+}
+
+/* General Mobile First CSS */
+
+.container {
+background-color: white;
+min-height: 10rem;
+
+max-width: 120rem;
+margin: auto;
+padding: 0rem 3rem 0rem 3rem;
+}
+
+#pageheader {
+min-height: 200px;
+background-color: seagreen;
+padding: 1rem;
+}
+#showcase {
+min-height: 200px;
+background-color: lightblue;
+padding: 1rem;
+}
+#features {
+min-height: 200px;
+background-color: springgreen;
+padding: 1rem;
+}
+#pagecontent {
+min-height: 200px;
+background-color: aqua;
+padding: 1rem;
+}
+#semesters {
+min-height: 200px;
+background-color: aquamarine;
+padding: 1rem;
+}
+#pagefooter {
+min-height: 200px;
+background-color: cornflowerblue;
+padding: 1rem;
+}
+
+/* Media Queries */
+@media only screen and (min-width: 320px) {
+body {
+font-size: 1rem;
+}
+#features {
+background-color: magenta;
+}
+}
+@media only screen and (min-width: 480px) {
+body {
+font-size: 1.4rem;
+}
+#features {
+background-color: greenyellow;
+}
+}
+@media only screen and (min-width: 768px) {
+body {
+font-size: 1.6rem;
+}
+#features {
+background-color: lime;
+}
+}
+@media only screen and (min-width: 1024px) {
+#features {
+background-color: green;
+}
+}
+@media only screen and (min-width: 1200px) {
+body {
+font-size: 2rem;
+}
+#features {
+background-color: limegreen;
+}
+}
