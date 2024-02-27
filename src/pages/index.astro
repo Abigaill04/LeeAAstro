@@ -1,6 +1,7 @@
 ---
 import "../styles/global.css"
 import PageHeader from "../components/PageHeader.astro";
+import Showcase from "../components/Showcase.astro";
 import Features from "../components/Features.astro";
 import PageContent from "../components/PageContent.astro";
 import Semesters from "../components/Semesters.astro";
@@ -27,19 +28,15 @@ import PageFooter from "../components/PageFooter.astro";
 
 	<PageHeader />
 
-<!-- Begin Showcase -->
+    <Showcase>
 
-<section id="showcase">showcase</section>
+    <Features />
 
-<!-- End Showcase -->
+    <PageContent />
 
-<Features />
+    <Semesters />
 
-<PageContent />
-
-<Semesters />
-
-<PageFooter/>
+    <PageFooter/>
 
 </body>
 </html>

@@ -1,6 +1,9 @@
+/* CSS Variables */
+/* Set Page Colors */
+
 :root {
---color-primary: green;
---color-secondary: blue;
+--color-primary: #2d6858;
+--color-secondary: #f0ad4a;
 }
 html {
 font-size: 62.5%;
@@ -13,6 +16,7 @@ font-size: 62.5%;
 6.0rem = 60px
 */
 }
+
 /* Browser Reset */
 *,
 *::before,
@@ -22,18 +26,193 @@ padding: 0;
 box-sizing: border-box;
 }
 
-/* Easy Pixel Calculations with Rem Units */
-body {
-font-size: 1.6rem;
-}
 /* Fix Browser Bounce on Macs */
 body {
 overflow-x: auto;
 width: 100%;
 overscroll-behavior: none;
+/* Allows for easy pixel calcs in rems */
+font-size: 1.6rem;
 }
 
+/* All Sections
+pageheader
+showcase
+features
+pagecontent
+semesters
+pagefooter
+ */
+
 /* General Mobile First CSS */
+
+body
+{
+    /* padding:1.0 rem; */
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7;
+    color: #333;
+    background-color:#f8fafc;
+}
+
+/* link Styles */
+a
+{
+    color:red;
+    text-decoration: none;
+}
+
+/* Paragraph */
+p
+{
+    margin:1rem 0 1rem 0;
+}
+
+/* Header Styles */
+
+h1, h2
+{
+    text-align: center;
+}
+
+h1, h2, h3
+{
+    line-height: 1.2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* List Styles */
+li
+{
+    line-height: 2;
+}
+
+/* Container Styles */
+.container
+{
+    max-width: 120rem; /* 1200px */
+    margin: auto;
+    padding: 0rem 3rem 0rem 3rem; /* 30px */
+}
+
+/* End General Mobile First Style */
+
+/* Header Section Style */
+#pageheader
+{
+    background-color: var(--color-primary);
+    height: 7.0rem;
+}
+
+/* Special Header Container Styles */
+
+#pageheader .container
+{
+    background-color: aquamarine;
+    border: 2px dashed red;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 2rem 0 2rem;
+}
+
+.logo img
+{
+    height: 6rem;
+}
+
+.logo:hover
+{
+    animation-name: swim; animation-duration:.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+@keyframes swim 
+{
+     0%{transform:rotate(0deg);}
+     100%{transform:rotate(45deg);}
+}
+
+/* Header Menu */
+#menu
+{
+    background-color: #f0ad4a; 
+    border: 2px dashed red;
+    display:flex;
+    justify-content: space-between; width:20rem; /* 200px */ list-style-type: none; background-color:none;
+}
+
+#menu li a 
+{
+    color: #fff;
+}
+
+/* End of Header Section Styles */
+
+/* Showcase Section Styles */
+#showcase
+{
+    border: .2rem solid none;
+    background-color:var (--color-primary);
+    padding:3rem;
+    background-image: linear-gradient(to bottom, var(--color-primary), var(--color-secondary) );
+    background-image:url(Images/pond.png) ;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom left;
+}
+
+#showcasetext
+{
+    border:.2rem solid none;
+    color:#fff;
+    text-align: center;
+    margin:5rem auto; max-width:60rem;
+}
+
+#showcase h1
+{
+    font-size: 5rem; /* 50px */
+    margin-bottom: 2rem; /* 50px */
+    text-shadow: 0 0 1rem black;
+}
+
+#showcase blockquote
+{
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+}
+
+#showcaseimage img
+{
+    border-radius: 1rem;
+    margin: auto; /* Needed? */
+}
+
+#showcaseintro
+{
+    color: #fff;
+    text-align: center;
+    font-size: 3rem;
+}
+
+/* Hide Big Logos/Technologies for mobile */
+#logosbig
+{
+    display: none;
+}
+
+#logossmall
+{
+    width: 30rem;
+}
+
+/* End of showcase section styles */
+
 
 .container {
 background-color: white;
