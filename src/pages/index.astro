@@ -1,7 +1,6 @@
 ---
 import "../styles/global.css"
 import PageHeader from "../components/PageHeader.astro";
-import Showcase from "../components/Showcase.astro";
 import Features from "../components/Features.astro";
 import PageContent from "../components/PageContent.astro";
 import Semesters from "../components/Semesters.astro";
@@ -16,21 +15,30 @@ import PageFooter from "../components/PageFooter.astro";
     <title>Theme Build For Astro</title>
 </head>
 <body>
-    <!-- 
-        What we need to build:
-        pageheader
-        showcase
-        features
-        pagecontent
-        semesters
-        pagefooter
-    -->
 
 	<PageHeader />
+    
+<!-- Begin Showcase Section -->
+    <section id="showcase">
+        <div id="showcasetext">
+            <h1>Abigail Lee</h1>
+            <h2>Portfolio</h2>
+            <blockquote>When I was young I thought that money was the most important thing in life; now that I am old I know that it is. - Oscar Wilde</blockquote>
+        </div>
+        
+        <div id="showcaseimage">
+        <img src="images/technologiesbig.png" alt="Technologies" id="logosbig">    
+        <img src="images/technologiessmall.png" alt="Technologies" id="logossmall">
+        </div>
+        
+        <p id="showcaseintro">
+            This is a showcase of my webpage design/development work.
+        </p>
+        
+        </section>
+        <!-- End Showcase Section -->
 
-    <Showcase>
-
-    <Features />
+    <Features/>
 
     <PageContent />
 
