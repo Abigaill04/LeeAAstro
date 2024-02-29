@@ -154,18 +154,12 @@ li {
   border: 0.2rem solid none;
   background-color: var(--color-primary);
   padding: 3rem;
-  background-image: linear-gradient(
-    to bottom,
-    var(--color-primary),
-    var(--color-secondary)
-  );
   background-image: url(images/pond.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: bottom left;
 }
-
 #showcasetext {
   border: 0.2rem solid none;
   color: #fff;
@@ -173,45 +167,35 @@ li {
   margin: 5rem auto;
   max-width: 60rem;
 }
-
 #showcase h1 {
-  font-size: 5rem; /* 50px */
-  margin-bottom: 2rem; /* 50px */
+  font-size: 5rem;
+  margin-bottom: 2rem;
   text-shadow: 0 0 1rem black;
 }
-
 #showcase blockquote {
   font-size: 2.4rem;
   margin-bottom: 2rem;
 }
-
-#showcaseimage
-{
+#showcaseimage {
   text-align: center;
-  /* Cheating */
 }
-
-#showcaseimage img {
+#shaowcaseimage img {
   border-radius: 1rem;
-  margin: auto; /* Needed? */
+  margin: auto;
 }
-
 #showcaseintro {
   color: #fff;
   text-align: center;
   font-size: 3rem;
 }
-
-/* Hide Big Logos/Technologies for mobile */
+/* Hide Big Logos/Technologies for Mobile */
 #logosbig {
   display: none;
 }
-
 #logossmall {
   width: 30rem;
 }
-
-/* End of showcase section styles */
+/* End of Showcase Section Styles */
 
 /* Features Section */
 #features .container {
@@ -235,59 +219,51 @@ li {
 /* End Features Section Styles */
 
 /* Pagecontent Section */
-#pagecontent
-{
+#pagecontent {
   background-color: none;
   padding: 2rem 0rem 2rem 0rem;
 }
 
-#pagecontent h2, h3
-{
+#pagecontent h2,
+h3 {
   padding: 2rem;
 }
 
-#pagecontent h2
-{
+#pagecontent h2 {
   font-size: 4rem;
 }
 
-#pagecontent h3
-{
+#pagecontent h3 {
   font-size: 2.5rem;
 }
 /* End Pagecontent Section Styles */
 
 /* Semester Section */
-#semesters 
-{
+#semesters {
   padding: 2rem 0 2rem 0;
 }
 
-#semesters h2, #semesters h3
-{
+#semesters h2,
+#semesters h3 {
   padding: 2rem 0 2rem 0;
 }
 
-#semesters h2
-{
+#semesters h2 {
   font-size: 4rem;
 }
 
-#semesters h3
-{
+#semesters h3 {
   font-size: 2.5rem;
 }
 
-.assignments a
-{
+.assignments a {
   color: #2d6858;
 }
 
 /* End Semester Section */
 
 /* Semester Thumbnail Section */
-.thumbnail
-{
+.thumbnail {
   background-color: burlywood;
   border: 2px dashed red;
   display: flex;
@@ -297,22 +273,23 @@ li {
   align-content: center;
 }
 
-.thumb
-{
+.thumb {
   width: 150px;
   height: 150px;
 }
-.thumb:hover
-{
+.thumb:hover {
   animation-name: tilt;
   animation-duration: 1s;
   animation-fill-mode: forwards;
 }
 
-@keyframes tilt 
-{
-  0%{transform:rotate(0deg);}
-  100%{transform:rotate(-15deg);}
+@keyframes tilt {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-15deg);
+  }
 }
 /* End semesters thumbnail section style */
 
