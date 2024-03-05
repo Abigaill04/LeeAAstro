@@ -2,8 +2,10 @@
 /* Set Page Colors */
 
 :root {
-  --color-primary: #2d6858;
-  --color-secondary: #f0ad4a;
+  /* --color-primary: #2d6858;
+  --color-secondary: #f0ad4a; */
+  --color-primary: #bec7d6;
+  --color-secondary: #e3fefe;
 }
 html {
   font-size: 62.5%;
@@ -51,7 +53,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.7;
   color: #333;
-  background-color: #f8fafc;
+  /* background-color: #f8fafc; */
+  background-color: #fff;
 }
 
 /* link Styles */
@@ -96,14 +99,16 @@ li {
 /* Header Section Style */
 #pageheader {
   background-color: var(--color-primary);
-  height: 7rem;
+  /* height: 7rem; */
+  height: 9rem;
 }
 
 /* Special Header Container Styles */
 
 #pageheader .container {
-  background-color: aquamarine;
-  border: 2px dashed red;
+  /* background-color: aquamarine; */
+  /* background-color: #fed2eb; */
+  /* border: 2px dashed red; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -112,7 +117,8 @@ li {
 }
 
 .logo img {
-  height: 6rem;
+  /* height: 6rem; */
+  height: 8rem;
 }
 
 .logo:hover {
@@ -134,8 +140,8 @@ li {
 
 /* Header Menu */
 #menu {
-  background-color: #f0ad4a;
-  border: 2px dashed red;
+  /* background-color: #f0ad4a;
+  border: 2px dashed red; */
   display: flex;
   justify-content: space-between;
   width: 20rem; /* 200px */
@@ -154,12 +160,16 @@ li {
   border: 0.2rem solid none;
   background-color: var(--color-primary);
   padding: 3rem;
-  background-color: linear-gradient(to bottom, var(--color-primary), var(--color-secondary));
-  background-image: url(images/pond.png);
+  background-color: linear-gradient(
+    to bottom,
+    var(--color-primary),
+    var(--color-secondary)
+  );
+  background-image: url(images/bacjground.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-position: bottom left;
+  background-position: center left;
 }
 #showcasetext {
   border: 0.2rem solid none;
@@ -202,8 +212,8 @@ li {
 /* Features Section */
 #features .container {
   padding-top: 2rem; /* Separate from Showcase */
-  background-color: burlywood;
-  border: 2px dashed red;
+  /* background-color: burlywood; */
+  /* border: 2px dashed red; */
   display: flex;
   gap: 1rem;
   justify-content: space-between;
@@ -266,8 +276,9 @@ h3 {
 
 /* Semester Thumbnail Section */
 .thumbnail {
-  background-color: burlywood;
-  border: 2px dashed red;
+  /* background-color: burlywood; */
+  background-color: #ecf0f1;
+  /* border: 2px dashed red; */
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -295,46 +306,40 @@ h3 {
 }
 /* End semesters thumbnail section style */
 
- /* Footer Section */
-#pagefooter
-{
+/* Footer Section */
+#pagefooter {
   background-color: var(--color-primary);
-  color:#fff;
+  color: #fff;
   text-align: center;
-  padding: 2rem; padding-top:6rem;
+  padding: 2rem;
+  padding-top: 6rem;
 }
 
-#pagefooter .container
-{
-  background-color: chocolate;
-  border: 2px dashed red;
+#pagefooter .container {
+  background-color: #b3866e;
+  /* border: 2px dashed red; */
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 
-#pagefooter a
-{
+#pagefooter a {
   color: #fff;
 }
 
-#pagefooter a:hover
-{
+#pagefooter a:hover {
   color: #b7c1bf;
 }
 
-#pagefooter h3
-{
+#pagefooter h3 {
   padding-bottom: 3rem;
 }
 
-#pagefooter #quote
-{
+#pagefooter #quote {
   text-align: left;
 }
 
-#pagefooterlinks
-{
+#pagefooterlinks {
   display: none;
 }
 
@@ -358,18 +363,16 @@ h3 {
     background-color: lime;
   }
 
-  .card
-  {
+  .card {
     flex-basis: 30%;
   }
 
-  #features .container
-  {
+  #features .container {
     flex-direction: row;
   }
 
-  h1, h2
-  {
+  h1,
+  h2 {
     text-align: left;
   }
 }
@@ -379,25 +382,22 @@ h3 {
     background-color: coral;
   }
 
-  #logosbig
-  {
+  #logosbig {
     display: block;
     margin: auto;
   }
 
-  #logossmall
-  {
+  #logossmall {
     display: none;
   }
 }
 
 @media only screen and (min-width: 1200px) {
   #features {
-    background-color: steelblue;
+    background-color: #bec7d6;
   }
 
-  #pagefooterlinks
-  {
+  #pagefooterlinks {
     display: block;
   }
 }
