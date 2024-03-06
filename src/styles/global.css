@@ -4,8 +4,8 @@
 :root {
   /* --color-primary: #2d6858;
   --color-secondary: #f0ad4a; */
-  --color-primary: #bec7d6;
-  --color-secondary: #e3fefe;
+  --color-primary:#BEC7D6;
+  --color-secondary:#7A90AC;
 }
 html {
   font-size: 62.5%;
@@ -101,14 +101,14 @@ li {
   background-color: var(--color-primary);
   /* height: 7rem; */
   height: 9rem;
+
 }
 
 /* Special Header Container Styles */
 
 #pageheader .container {
-  /* background-color: aquamarine; */
-  /* background-color: #fed2eb; */
-  /* border: 2px dashed red; */
+  /* background-color: aquamarine;
+  border: 2px dashed red; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -119,6 +119,7 @@ li {
 .logo img {
   /* height: 6rem; */
   height: 8rem;
+
 }
 
 .logo:hover {
@@ -160,16 +161,12 @@ li {
   border: 0.2rem solid none;
   background-color: var(--color-primary);
   padding: 3rem;
-  background-color: linear-gradient(
-    to bottom,
-    var(--color-primary),
-    var(--color-secondary)
-  );
+  background-color: linear-gradient(to bottom, var(--color-primary), var(--color-secondary));
   background-image: url(images/bacjground.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-position: center left;
+  background-position: bottom left;
 }
 #showcasetext {
   border: 0.2rem solid none;
@@ -269,7 +266,7 @@ h3 {
 }
 
 .assignments a {
-  color: #2d6858;
+  color: #7A90AC;
 }
 
 /* End Semester Section */
@@ -284,6 +281,11 @@ h3 {
   align-items: center;
   flex-wrap: wrap;
   align-content: center;
+}
+
+.thumbnail img
+{
+  border-radius: 5px;
 }
 
 .thumb {
@@ -312,11 +314,13 @@ h3 {
   color: #fff;
   text-align: center;
   padding: 2rem;
-  padding-top: 6rem;
+  /* padding-top: 6rem; */
+  padding-top: .5rem;
+
 }
 
 #pagefooter .container {
-  background-color: #bdaac9;
+  /* background-color: #bdaac9; */
   /* border: 2px dashed red; */
   display: flex;
   justify-content: space-evenly;
@@ -332,7 +336,8 @@ h3 {
 }
 
 #pagefooter h3 {
-  padding-bottom: 3rem;
+    padding-bottom: 3rem;
+
 }
 
 #pagefooter #quote {
@@ -348,19 +353,19 @@ h3 {
 /* Media Queries */
 @media only screen and (min-width: 320px) {
   #features {
-    background-color: magenta;
+    background-color: #bec7d6;
   }
 }
 
 @media only screen and (min-width: 480px) {
   #features {
-    background-color: yellow;
+    background-color: #bec7d6;
   }
 }
 
 @media only screen and (min-width: 768px) {
   #features {
-    background-color: lime;
+    background-color: #bec7d6;
   }
 
   .card {
@@ -379,7 +384,7 @@ h3 {
 
 @media only screen and (min-width: 1024px) {
   #features {
-    background-color: coral;
+    background-color: #bec7d6;
   }
 
   #logosbig {
