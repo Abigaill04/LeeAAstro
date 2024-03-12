@@ -184,6 +184,26 @@ li {
   font-size: 2.4rem;
   margin-bottom: 2rem;
 }
+
+#author
+{
+  font-size: 2.4rem;
+
+}
+
+blockquote::before
+{
+    font-size:32px;
+    background-color: none;
+    content: " “ ";
+}
+blockquote::after
+{
+    font-size:32px;
+    background-color: none;
+    content: " ” ";
+}
+
 #showcaseimage {
   text-align: center;
   /* Cheating */
