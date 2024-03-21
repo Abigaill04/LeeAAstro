@@ -162,7 +162,7 @@ li {
   background-color: var(--color-primary);
   padding: 3rem;
   background-color: linear-gradient(to bottom, var(--color-primary), var(--color-secondary));
-  background-image: url(images/bacjground.png);
+  background-image: url(/images/bacjground.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -343,7 +343,7 @@ h3 {
 }
 
 .thumbnail a[data-tooltip]::after {
-  background-color: rgb(0,0,0,0.7);
+  background-color: rgb(145,139,0.7);
   content:attr(data-tooltip) ;
   color: white;
   padding: .5rem;
