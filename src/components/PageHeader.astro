@@ -8,7 +8,7 @@
     <div class="container">
 
         <div class="logo">
-            <img src="/images/polarbearlogo.png" alt="Koi Fish Logo">
+            <img src="/images/polarbearlogo.png" alt="Polar Bear Logo">
         </div>
 
         <nav>
@@ -24,4 +24,67 @@
     <!-- End Pageheader -->
 
 
-    
+<style>
+
+
+/* Header Section Style */
+#pageheader {
+  background-color: var(--color-primary);
+  /* height: 7rem; */
+  height: 9rem;
+
+}
+
+/* Special Header Container Styles */
+
+#pageheader .container {
+  /* background-color: aquamarine;
+  border: 2px dashed red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 0 2rem 0 2rem;
+}
+
+.logo img {
+  /* height: 6rem; */
+  height: 8rem;
+
+}
+
+.logo:hover {
+  animation-name: tilt;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+@keyframes tilt {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(45deg);
+  }
+}
+
+/* Header Menu */
+#menu {
+  /* background-color: #f0ad4a;
+  border: 2px dashed red; */
+  display: flex;
+  justify-content: space-between;
+  width: 20rem; /* 200px */
+  list-style-type: none;
+  background-color: none;
+}
+
+#menu li a {
+  color: #fff;
+}
+
+/* End of Header Section Styles */
+
+</style>

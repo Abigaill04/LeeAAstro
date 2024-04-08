@@ -5,6 +5,8 @@ import Features from "../components/Features.astro";
 import PageContent from "../components/PageContent.astro";
 import Semesters from "../components/Semesters.astro";
 import PageFooter from "../components/PageFooter.astro";
+import Showcase from "../components/Showcase.astro";
+
 ---
 
 <!DOCTYPE html>
@@ -27,34 +29,15 @@ import PageFooter from "../components/PageFooter.astro";
 </head>
 <body>
 
-	<PageHeader />
-    
-<!-- Begin Showcase Section -->
-    <section id="showcase">
-        <div id="showcasetext">
-            <h1>Abigail Lee</h1>
-            <h2>Portfolio</h2>
-            <blockquote> Words are the source of misunderstandings.</blockquote>
-            <p id="author"> - Antoine de Saint-Exupéry</p>
-        </div>
-        
-        <div id="showcaseimage">
-            <img src="/images/technologiesbig.png" alt="Technologies" id="logosbig">
-            <img src="/images/technologiessmall.png" alt="Technologies" id="logossmall">
-        </div>
-        
-        <p id="showcaseintro">
-            This is a showcase of my web design/devlopment work.
-        </p>
-        
-        </section>
-        <!-- End Showcase Section -->
+	<PageHeader/>
+
+    <Showcase/>
 
     <Features/>
 
-    <PageContent />
+    <PageContent/>
 
-    <Semesters />
+    <Semesters/>
 
     <PageFooter/>
 

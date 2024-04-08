@@ -67,3 +67,99 @@
     </section>
     
     <!-- End Semesters -->
+
+    <style>
+
+/* Semester Section */
+#semesters {
+  padding: 2rem 0 2rem 0;
+}
+
+#semesters h2,
+#semesters h3 {
+  padding: 2rem 0 2rem 0;
+}
+
+#semesters h2 {
+  font-size: 4rem;
+  text-align: left;
+}
+
+#semesters h3 {
+  font-size: 2.5rem;
+}
+
+.assignments a {
+  color: #7A90AC;
+}
+
+/* End Semester Section */
+
+/* Semester Thumbnail Section */
+.thumbnail {
+  /* background-color: burlywood; */
+  background-color: #ecf0f1;
+  /* border: 2px dashed red; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.thumbnail img
+{
+  border-radius: 5px;
+}
+
+.thumb {
+  width: 150px;
+  height: 150px;
+}
+.thumb:hover {
+  animation-name: tilt;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes tilt {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-15deg);
+  }
+}
+
+.thumbnail a
+{
+  text-decoration: none;
+  position: relative;
+}
+
+.thumbnail a[data-tooltip]::after {
+  background-color:rgb(178,174,186);
+  content:attr(data-tooltip) ;
+  color: white;
+  padding: .5rem;
+  position: absolute;
+  z-index: 1;
+  top:-15%;
+  left:10%;
+  right: 10%;
+  border-radius: 10px;
+  text-align: center;
+  transform: scale(0);
+  transition: all 0.5s;
+}
+
+.thumbnail a[data-tooltip]:hover::after{
+  transform: scale(1);
+
+}
+
+
+/* End semesters thumbnail section style */
+
+
+    </style>

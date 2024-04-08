@@ -1,0 +1,168 @@
+---
+
+---
+    
+<!-- Begin Showcase Section -->
+<section id="showcase">
+    <div id="showcasetext">
+        <h1>Abigail Lee</h1>
+        <h2>Portfolio</h2>
+        <blockquote> Words are the source of misunderstandings.</blockquote>
+        <p id="author"> - Antoine de Saint-Exupéry</p>
+    </div>
+    
+    <div id="showcaseimage">
+        <img src="/images/technologiesbig.png" alt="Technologies" id="logosbig">
+        <img src="/images/technologiessmall.png" alt="Technologies" id="logossmall">
+    </div>
+    
+    <p id="showcaseintro">
+        This is a showcase of my web design/devlopment work.
+    </p>
+    
+    </section>
+    <!-- End Showcase Section -->
+
+    <style>
+
+
+/* Showcase Section Styles */
+#showcase {
+  border: 0.2rem solid none;
+  background-color: var(--color-primary);
+  padding: 3rem;
+  background-color: linear-gradient(to bottom, var(--color-primary), var(--color-secondary));
+  background-image: url(/images/bacjground.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom left;
+}
+#showcasetext {
+  border: 0.2rem solid none;
+  color: #fff;
+  text-align: center;
+  margin: 5rem auto;
+  max-width: 60rem;
+}
+#showcase h1 {
+  font-size: 5rem; /* 50px */
+  margin-bottom: 2rem; /* 20px */
+  text-shadow: 0 0 1rem black;
+}
+
+#showcase h2 {
+  text-shadow: 0 0 1rem black;
+}
+
+#showcase blockquote {
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+  text-shadow: 0 0 1rem black;
+}
+
+#author
+{
+  font-size: 2.4rem;
+  text-shadow: 0 0 1rem black;
+
+
+}
+
+blockquote::before
+{
+    font-size:32px;
+    background-color: none;
+    content: " “ ";
+}
+blockquote::after
+{
+    font-size:32px;
+    background-color: none;
+    content: " ” ";
+}
+
+#showcaseimage {
+  text-align: center;
+  /* Cheating */
+}
+#showcaseimage img {
+  border-radius: 1rem;
+  margin: auto; /* Needed? */
+}
+#showcaseintro {
+  color: #fff;
+  text-align: center;
+  font-size: 3rem;
+  text-shadow: 0 0 1rem black;
+}
+/* Hide Big Logos/Technologies for Mobile */
+#logosbig {
+  display: none;
+}
+#logossmall {
+  width: 30rem;
+}
+/* End of Showcase Section Styles */
+
+
+
+@media only screen and (min-width: 320px) {
+  #features {
+    background-color: #bec7d6;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  #features {
+    background-color: #bec7d6;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #features {
+    background-color: #bec7d6;
+  }
+
+  .card {
+    flex-basis: 30%;
+  }
+
+  #features .container {
+    flex-direction: row;
+  }
+
+  h1,
+  h2 {
+    text-align: left;
+  }
+}
+
+
+@media only screen and (min-width: 1024px) {
+  #features {
+    background-color: #bec7d6;
+  }
+
+  #logosbig {
+    display: block;
+    margin: auto;
+  }
+
+  #logossmall {
+    display: none;
+  }
+}
+
+
+@media only screen and (min-width: 1200px) {
+  #features {
+    background-color: #bec7d6;
+  }
+
+  #pagefooterlinks {
+    display: block;
+  }
+}
+
+    </style>
