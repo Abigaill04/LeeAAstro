@@ -1,0 +1,255 @@
+---
+import { Icon } from 'astro-icon/components'
+
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Work Sample</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<div id="container">
+    
+    <header>
+      <h2>Work Sample</h2>
+    </header>
+    
+    <section>
+      <!-- <nav>
+        <ul>
+          <li><a href="#">London</a></li>
+          <li><a href="#">Paris</a></li>
+          <li><a href="#">Tokyo</a></li>
+        </ul>
+      </nav> -->
+      
+      <article>
+        <h1>View my work!</h1>
+        <p>These are some of my work that I've created over the year.</p>
+
+<p>
+        To see my work, click on the icon.
+    
+</p>
+
+
+
+<section id="workthumbnails">
+    <div class="thumbnail">
+
+<a href="https://chsserver01.org/2023/alee062023/Activities/PaintBrushPrototypeMobile/paintbrushprototypemobile.html" data-tooltip="Paintbrush App"  target="new">
+            
+    <Icon name="paintbrush" size={100} />
+
+
+</a>
+<a href="https://chsserver01.org/2023/alee062023/Images/scarecrow.jpg"  data-tooltip="Photoshop - Scarecrow" target="new">
+    <Icon name="photoshop" size={100} />
+
+
+</a>
+
+<a href="https://chsserver01.org/2023/alee062023/Activities/CanvasDrawing2/canvasdrawing2.html"  data-tooltip="Canvas Drawing - Truck" target="new" >
+    <Icon name="canvas" size={100} />
+
+
+</a>
+</div>
+</section>
+
+      </article>
+    </section>
+    
+    <footer>
+        <!-- <blockquote>
+            Life is hard. After all, it kills you.
+        </blockquote> -->
+    
+    
+    </footer>
+    
+</div>
+</body>
+</html>
+
+
+<style>
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Style container */
+  #container
+  {
+  margin: 0;
+  }
+
+
+  /* Style the header */
+  header {
+    background-color: #BEC7D6;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+  }
+  
+
+  article {
+    padding: 20px;
+    background-color: #f1f1f1;
+    height: 300px; /* only for demonstration, should be removed */
+  }
+  
+  /* Clear floats after the columns */
+  section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #BEC7D6;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    height: 175px;
+
+  }
+
+
+
+#author
+{
+/* text-shadow: 0 0 1rem black; */
+
+
+}
+/* Style Quote */
+blockquote::before
+{
+  font-size:32px;
+  background-color: none;
+  content: " “ ";
+}
+blockquote::after
+{
+  font-size:32px;
+  background-color: none;
+  content: " ” ";
+}
+
+
+/* icon */
+[data-icon = "paintbrush"]
+{
+  color: black;
+  min-width: 100px;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  transition: all 0.25s;
+}
+
+  [data-icon = "canvas"]
+{
+  color: black;
+  min-width: 100px;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  transition: all 0.25s;
+}
+
+  [data-icon = "photoshop"]
+{
+  color: black;
+  min-width: 100px;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  transition: all 0.25s;
+}
+
+
+/* Semester Thumbnail Section */
+.thumbnail {
+/* background-color: burlywood; */
+background-color: #ecf0f1;
+/* border: 2px dashed red; */
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+flex-wrap: wrap;
+align-content: center;
+}
+
+.thumbnail img
+{
+border-radius: 5px;
+}
+
+.thumb {
+width: 150px;
+height: 150px;
+}
+.thumb:hover {
+animation-name: tilt;
+animation-duration: 1s;
+animation-fill-mode: forwards;
+}
+
+@keyframes tilt {
+0% {
+  transform: rotate(0deg);
+}
+100% {
+  transform: rotate(-15deg);
+}
+}
+
+.thumbnail a
+{
+text-decoration: none;
+position: relative;
+}
+
+.thumbnail a[data-tooltip]::after {
+background-color:rgb(178,174,186);
+content:attr(data-tooltip) ;
+color: white;
+padding: .5rem;
+position: absolute;
+z-index: 1;
+top:-15%;
+left:10%;
+right: 10%;
+border-radius: 10px;
+text-align: center;
+transform: scale(0);
+transition: all 0.5s;
+}
+
+.thumbnail a[data-tooltip]:hover::after{
+transform: scale(1);
+
+}
+
+
+/* End semesters thumbnail section style */
+
+  
+  /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+  @media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+  }
+  </style>
