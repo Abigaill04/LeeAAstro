@@ -2,99 +2,7 @@
 import { Icon } from 'astro-icon/components'
 
 ---
-<script type="text/javascript">
 
-  function openIntroductionPdf()
-  {
-     var omyFrame = document.getElementById("myFrame");
-
-     if (omyFrame.style.display === 'none') {
-    omyFrame.style.display = 'block';
-         omyFrame.src  = "https://chsserver01.org/2023/alee062023/Career/IntroductionLetter.pdf" ;
-
-  } else {
-    omyFrame.style.display = 'none';
-  }
-  }
-
-  function openPdf()
-  {
-     var omyFrame = document.getElementById("myFrame");
-
-     if (omyFrame.style.display === 'none') {
-    omyFrame.style.display = 'block';
-         omyFrame.src  = "https://chsserver01.org/2023/alee062023/Career/Resume.pdf" ;
-
-  } else {
-    omyFrame.style.display = 'none';
-  }
-  }
-
-  function openReferencePdf()
-  {
-     var myFrame = document.getElementById("myFrame");
-
-     if (myFrame.style.display === 'none') {
-      myFrame.style.display = 'block';
-      myFrame.src  = "https://chsserver01.org/2023/alee062023/Career/Reference.pdf" ;
-
-  } else {
-    myFrame.style.display = 'none';
-  }
-  }
-
-  function openApplicationPdf()
-  {
-     var myFrame = document.getElementById("myFrame");
-
-     if (myFrame.style.display === 'none') {
-      myFrame.style.display = 'block';
-      myFrame.src  = "https://chsserver01.org/2023/alee062023/Career/Job%20Application.pdf" ;
-
-  } else {
-    myFrame.style.display = 'none';
-  }
-  }
-
-  function openWorkSamplePdf()
-  {
-     var myFrame = document.getElementById("myFrame");
-
-     if (myFrame.style.display === 'none') {
-      myFrame.style.display = 'block';
-      myFrame.src  = "/worksample" ;
-
-  } else {
-    myFrame.style.display = 'none';
-  }
-  }
-
-  function openCertificatesPdf()
-  {
-     var myFrame = document.getElementById("myFrame");
-
-     if (myFrame.style.display === 'none') {
-      myFrame.style.display = 'block';
-      myFrame.src  = "https://chsserver01.org/2023/alee062023/Career/Certificates.pdf" ;
-
-  } else {
-    myFrame.style.display = 'none';
-  }
-  }
-
-  function openCareerPlanPdf()
-  {
-     var myFrame = document.getElementById("myFrame");
-
-     if (myFrame.style.display === 'none') {
-      myFrame.style.display = 'block';
-      myFrame.src  = "https://chsserver01.org/2023/alee062023/Career/%20Career%20Action%20Plan.pdf" ;
-
-  } else {
-    myFrame.style.display = 'none';
-  }
-  }
-</script>
 
 <!-- End of Script -->
 
@@ -599,3 +507,62 @@ p
 }
 }
 </style>
+
+
+
+<script type="text/javascript">
+
+  function openIntroductionPdf()
+  {
+     var myFrame = document.getElementById("myFrame");
+     myFrame.style.display="block";
+     myFrame.src = "https://chsserver01.org/2023/alee062023/Career/IntroductionLetter.pdf";
+
+  }
+
+  function openPdf()
+  {
+     var myFrame = document.getElementById("myFrame");
+     myFrame.style.display="block";
+     myFrame.src = "https://chsserver01.org/2023/alee062023/Career/Resume.pdf";
+  }
+
+  function openReferencePdf()
+  {
+    var myFrame = document.getElementById("myFrame");
+     myFrame.style.display="block";
+     myFrame.src = "https://chsserver01.org/2023/alee062023/Career/Reference.pdf";
+
+  }
+
+  function openApplicationPdf()
+  {
+    var myFrame = document.getElementById("myFrame");
+     myFrame.style.display="block";
+     myFrame.src = "https://chsserver01.org/2023/alee062023/Career/Job%20Application.pdf";
+  }
+
+  function openWorkSamplePdf()
+  {
+     var myFrame = document.getElementById("myFrame");
+     myFrame.style.display="block";
+     myFrame.src = "/worksample";
+  }
+
+  function openCertificatesPdf()
+  {
+     var myFrame = document.getElementById("myFrame");
+     myFrame.style.display="block";
+     myFrame.src = "https://chsserver01.org/2023/alee062023/Career/Certificates.pdf";
+  }
+
+  function openCareerPlanPdf()
+  {
+     var myFrame = document.getElementById("myFrame");
+     myFrame.style.display="block";
+     myFrame.src = "https://chsserver01.org/2023/alee062023/Career/%20Career%20Action%20Plan.pdf";
+  
+  }
+</script>
+
+<!-- End of Script -->
