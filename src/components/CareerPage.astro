@@ -2,103 +2,6 @@
 import { Icon } from 'astro-icon/components'
 
 ---
-<script type="text/javascript">
-
-  function openIntroductionPdf()
-  {
-     var omyFrame = document.getElementById("myFrame");
-
-     if (omyFrame.style.display === 'none') {
-    omyFrame.style.display = 'block';
-         omyFrame.src  = "https://chsserver01.org/2023/alee062023/Career/IntroductionLetter.pdf" ;
-
-  } else {
-    omyFrame.style.display = 'none';
-  }
-  }
-
-  function openPdf()
-  {
-     var omyFrame = document.getElementById("myFrame");
-
-     if (omyFrame.style.display === 'none') {
-    omyFrame.style.display = 'block';
-         omyFrame.src  = "https://chsserver01.org/2023/alee062023/Career/Resume.pdf" ;
-
-  } else {
-    omyFrame.style.display = 'none';
-  }
-  }
-
-  function openReferencePdf()
-  {
-     var myFrame = document.getElementById("myFrame");
-
-     if (myFrame.style.display === 'none') {
-      myFrame.style.display = 'block';
-      myFrame.src  = "https://chsserver01.org/2023/alee062023/Career/Reference.pdf" ;
-
-  } else {
-    myFrame.style.display = 'none';
-  }
-  }
-
-  function openApplicationPdf()
-  {
-     var myFrame = document.getElementById("myFrame");
-
-     if (myFrame.style.display === 'none') {
-      myFrame.style.display = 'block';
-      myFrame.src  = "https://chsserver01.org/2023/alee062023/Career/Job%20Application.pdf" ;
-
-  } else {
-    myFrame.style.display = 'none';
-  }
-  }
-
-  function openWorkSamplePdf()
-  {
-     var myFrame = document.getElementById("myFrame");
-
-     if (myFrame.style.display === 'none') {
-      myFrame.style.display = 'block';
-      myFrame.src  = "/worksample" ;
-
-  } else {
-    myFrame.style.display = 'none';
-  }
-  }
-
-  function openCertificatesPdf()
-  {
-     var myFrame = document.getElementById("myFrame");
-
-     if (myFrame.style.display === 'none') {
-      myFrame.style.display = 'block';
-      myFrame.src  = "https://chsserver01.org/2023/alee062023/Career/Certificates.pdf" ;
-
-  } else {
-    myFrame.style.display = 'none';
-  }
-  }
-
-  function openCareerPlanPdf()
-  {
-     var myFrame = document.getElementById("myFrame");
-
-     if (myFrame.style.display === 'none') {
-      myFrame.style.display = 'block';
-      myFrame.src  = "https://chsserver01.org/2023/alee062023/Career/%20Career%20Action%20Plan.pdf" ;
-
-  } else {
-    myFrame.style.display = 'none';
-  }
-  }
-</script>
-
-<!-- End of Script -->
-
-  
   <section id="container">
   
     <h1 id="title">Career</h1>
@@ -140,8 +43,10 @@ import { Icon } from 'astro-icon/components'
         <h3>Letter of Intro.</h3>
   
         <button value="Open Letter of Introduction PDF" onclick = "openIntroductionPdf()"  >
-          <Icon name="reference" size={40} />
-        </button>
+<a data-tooltip="Letter of Intro.">
+            <Icon name="letter" size={40} />
+  
+</a>        </button>
     
       <!-- Introduction -->
   
@@ -150,7 +55,11 @@ import { Icon } from 'astro-icon/components'
     <h3>Job Application</h3>
     
     <button value="Open Application PDF" onclick = "openApplicationPdf()"  >
-          <Icon name="application" size={40} />
+
+        <a  data-tooltip=" Job Application">
+            <Icon name="application" size={40} />
+  
+        </a>          
   </button>
   
   <!-- Application -->
@@ -159,26 +68,25 @@ import { Icon } from 'astro-icon/components'
     
           <h3>Resume</h3>
     
-          <!-- <div class="iframe-container"> 
-            <iframe id="myFrame" style="display:none" height="100%" width="100%"></iframe>
-          </div>
-     -->
-          <!-- <input type="button" value="Open PDF" onclick = "openPdf()"          /> -->
-    
               <button value="Open PDF" onclick = "openPdf()"  >
-            <Icon name="resume" size={40} />
-    
+
+<a data-tooltip="Resume">
+                <Icon name="resume" size={40} />
+</a>  
               </button>
+
       <!-- resume -->
   
           <!--work sample  -->
           <h3>Work Sample</h3>
   
               <button value="Open PDF" onclick = "openWorkSamplePdf()"  >
-            <Icon name="worksample" size={40} />
-    
+
+                  <a data-tooltip="Work Sample">
+                      <Icon name="worksamples" size={43} />
+                  </a>    
               </button>
-      <!-- resume -->
+      <!-- work sample -->
   
   
   
@@ -186,7 +94,11 @@ import { Icon } from 'astro-icon/components'
       <h3>References</h3>
   
       <button value="Open Reference PDF" onclick = "openReferencePdf()"  >
-        <Icon name="reference" size={40} />
+
+          <a data-tooltip="Reference">
+            <Icon name="reference" size={40} />
+  
+          </a>        
       </button>
   
     <!-- References -->
@@ -195,7 +107,10 @@ import { Icon } from 'astro-icon/components'
       <h3>Certificates</h3>
   
       <button value="Open Certificates PDF" onclick = "openCertificatesPdf()"  >
-        <Icon name="certificate" size={40} />
+
+          <a data-tooltip="Certificates">
+            <Icon name="certificate" size={40} />
+          </a>
       </button>
   
     <!-- References -->
@@ -205,15 +120,18 @@ import { Icon } from 'astro-icon/components'
     <h3>Career Plan</h3>
     
     <button value="Open Career Plan PDF" onclick = "openCareerPlanPdf()"  >
+
+        <a data-tooltip="Career">
           <Icon name="career" size={40} />
-  </button>
+        </a>  
+    </button>
   
   <!-- Career Plan -->
     
       </div>
   
 
-      <footer>      </footer>
+      <!-- <footer>      </footer> -->
   
 
 
@@ -222,6 +140,55 @@ import { Icon } from 'astro-icon/components'
 
 
 <style>
+a
+{
+  text-decoration: none;
+  position: relative;
+}
+
+a[data-tooltip]::after {
+  background-color:rgb(122,143,171);
+  content:attr(data-tooltip) ;
+  color: white;
+  padding:1rem;
+  position: absolute;
+  z-index: 1;
+  top:-15%;
+  left:-30px;
+  right: 0%;
+  width: 100px;
+  border-radius: 10px;
+  text-align: center;
+  transform: scale(0);
+  transition: all .5s;
+}
+
+ a[data-tooltip]:hover::after{
+  transform: scale(1);
+
+}
+
+[data-icon = "career"]
+	{color: black;	}
+
+[data-icon = "certificate"]
+	{color: black;	}
+
+[data-icon = "references"]
+	{color: black;	}
+
+[data-icon = "worksample"]
+	{color: black;	}
+
+[data-icon = "resume"]
+	{color: black;	}
+
+[data-icon = "jobapplication"]
+	{color: black;	}
+
+[data-icon = "letter"]
+	{color: black;	}
+
 
   footer
   {
@@ -599,3 +566,61 @@ p
 }
 }
 </style>
+
+
+<script type="text/javascript">
+
+  function openIntroductionPdf()
+  {
+     var myFrame = document.getElementById("myFrame");
+     myFrame.style.display="block";
+     myFrame.src = "https://chsserver01.org/2023/alee062023/Career/IntroductionLetter.pdf";
+
+  }
+
+  function openPdf()
+  {
+     var myFrame = document.getElementById("myFrame");
+     myFrame.style.display="block";
+     myFrame.src = "https://chsserver01.org/2023/alee062023/Career/Resume.pdf";
+  }
+
+  function openReferencePdf()
+  {
+    var myFrame = document.getElementById("myFrame");
+     myFrame.style.display="block";
+     myFrame.src = "https://chsserver01.org/2023/alee062023/Career/Reference.pdf";
+
+  }
+
+  function openApplicationPdf()
+  {
+    var myFrame = document.getElementById("myFrame");
+     myFrame.style.display="block";
+     myFrame.src = "https://chsserver01.org/2023/alee062023/Career/Job%20Application.pdf";
+  }
+
+  function openWorkSamplePdf()
+  {
+     var myFrame = document.getElementById("myFrame");
+     myFrame.style.display="block";
+     myFrame.src = "/worksample";
+  }
+
+  function openCertificatesPdf()
+  {
+     var myFrame = document.getElementById("myFrame");
+     myFrame.style.display="block";
+     myFrame.src = "https://chsserver01.org/2023/alee062023/Career/Certificates.pdf";
+  }
+
+  function openCareerPlanPdf()
+  {
+     var myFrame = document.getElementById("myFrame");
+     myFrame.style.display="block";
+     myFrame.src = "https://chsserver01.org/2023/alee062023/Career/%20Career%20Action%20Plan.pdf";
+  
+  }
+</script>
+
+<!-- End of Script -->
