@@ -44,7 +44,7 @@ Proper Measurement needs to have one estimated digit, no more no less
 - Read the scale with your eyes at the level of the liquid
 - Read from the bottom of the meniscus (curve)
 
-  ![Graduated Cylinder](Images/graduated%20cylinder.png)
+  ![Graduated Cylinder](Images/graduatedcylinder.png)
 
   ## Important
 
