@@ -18,7 +18,7 @@ The density of most gases is thousands of time smaller than most liquids and sol
 
 Compared to solids and liquids the particles of a gas are extremely far apart!
 
-![Graph and particle diagram](images/graph.png)
+![Graph and particle diagram](/public/images/graph.png)
 
 ---
 
@@ -31,4 +31,4 @@ _Density (not weight!) determines if something will sink of float._
 
 ### Example:
 
-![Graph and particle diagram](images/hotairballon.png)
+![Hot air ballon](/public/images/hotairballon.png)
