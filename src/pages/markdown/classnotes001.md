@@ -4,6 +4,8 @@ description: "Learning how to measure correctly"
 class: "Chemistry"
 date: 2024-05-15
 author: "Abigail Lee"
+layout: "../../layouts/BaseLayout.astro"
+
 ---
 
 # Scientific Measurement

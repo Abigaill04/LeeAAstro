@@ -4,6 +4,8 @@ description: "Compound sentences are connect by one of the FANBOYS acronym"
 class: "English III"
 date: 2024-05-15
 author: "Abigail Lee"
+layout: "../../layouts/BaseLayout.astro"
+
 ---
 
 # Compound Sentence - Review Notes

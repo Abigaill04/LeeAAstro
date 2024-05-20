@@ -4,6 +4,8 @@ description: "Each type of phase have a different density"
 class: "Chemistry"
 date: 2024-05-15
 author: "Abigail Lee"
+layout: "../../layouts/BaseLayout.astro"
+
 ---
 
 # Density and Phases of Matter

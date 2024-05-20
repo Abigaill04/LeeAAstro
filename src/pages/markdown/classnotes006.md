@@ -4,6 +4,8 @@ description: "Mole is a comparison of the different amount of particles"
 class: "Chemistry"
 date: 2024-05-15
 author: "Abigail Lee"
+layout: "../../layouts/BaseLayout.astro"
+
 ---
 
 # The Mole Concept

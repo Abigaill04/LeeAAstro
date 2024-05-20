@@ -4,6 +4,8 @@ description: "The history behind Japanese tea bowl"
 class: "Ceramics"
 date: 2024-05-15
 author: "Abigail Lee"
+layout: "../../layouts/BaseLayout.astro"
+
 ---
 
 # Tea Bowl

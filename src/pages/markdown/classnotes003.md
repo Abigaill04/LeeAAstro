@@ -4,6 +4,8 @@ description: "Rhetorical Appeals"
 class: "English III"
 date: 2024-05-15
 author: "Abigail Lee"
+layout: "../../layouts/BaseLayout.astro"
+
 ---
 
 # Rhetorical Appeals (Rhetoric)
