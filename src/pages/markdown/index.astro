@@ -10,6 +10,7 @@ const mdNotes = await Astro.glob("./*.md");
 
 <h2>Class Notes - Markdown Files </h2>
 
+
 <ul>
 
     {mdNotes.map( (note) => ( <li> <a href={note.url}> {note.frontmatter.title} </a></li>) )}
@@ -22,13 +23,19 @@ const mdNotes = await Astro.glob("./*.md");
 
 ul
 {
-    list-style-type:;
+    /* list-style-type:none; */
     padding: 0;
 }
 
 a{
     color:black;
+    padding: 1rem;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
  }
 
-
+h1
+{
+    font-family: 'Times New Roman', Times, serif;
+}
 </style>
