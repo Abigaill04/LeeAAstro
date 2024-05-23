@@ -17,8 +17,8 @@ Abigail Lee - Period 1 - Chemistry
 
 # Nonpolar bonds
 
-| Nonpolar                                        | Explanation                                                                                                                    |
-| ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| Nonpolar                                         | Explanation                                                                                                                    |
+| ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ |
 | ![Nonpolar example](/public/images/nonpolar.png) | When there is no difference in electronegativity between the elements in a covalent bond, the atoms share the electron evenly. |
 
 - Wheh electrons are shared evenly, they orbit the same distance from the nucleus.
@@ -27,14 +27,14 @@ Abigail Lee - Period 1 - Chemistry
 
 # Polar Bonds
 
-| Polar                                     | Explanation                                                                                                                                                                                                                                                                                    |
-| ----------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Polar                                      | Explanation                                                                                                                                                                                                                                                                                    |
+| ------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![Polar example](/public/images/polar.png) | The electronegativity of oxygen is 3.5 Puling but the hyrdogen's electronegativity is only 2.1 Pauling. This means that in a water molecule, oxygen does not share the electrons evenly in its two covalently bonds with hydrogen. The shared electrons orbit closer to oxygen than hyrdrogen. |
 
 - Polar covalent bonds have slight charges on opposite side of the bond caused by the uneven sharing of electrons.
 
-| How polar charges are represented                | Description                                   |
-| ------------------------------------------------ | --------------------------------------------- |
+| How polar charges are represented                 | Description                                   |
+| ------------------------------------------------- | --------------------------------------------- |
 | ![Delta Representation](/public/images/delta.png) | The first way the charges can be represented  |
 | ![Arrow Representation](/public/images/arrow.png) | The second way the charges can be represented |
 
@@ -46,8 +46,8 @@ Abigail Lee - Period 1 - Chemistry
 
 ## Overview
 
-| Differences in electronegativity | Type of Bonds     | Sharing                             |
-| -------------------------------- | ----------------- | ----------------------------------- |
-| ≤ 0.4                            | Nonpolar covalent | Equal                               |
-| 0.4< and ≤ 2.0                   | polar covalent    | unequal                             |
-| >2.0                             | ionic             | NO sharing (transfer of electrons ) |
+| Differences in electronegativity | Type of Bonds     | Sharing    |
+| -------------------------------- | ----------------- | ---------- |
+| ≤ 0.4                            | Nonpolar covalent | Equal      |
+| 0.4 < and ≤ 2.0                  | polar covalent    | unequal    |
+| > 2.0                            | ionic             | NO sharing |
