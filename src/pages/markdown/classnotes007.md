@@ -48,6 +48,6 @@ Abigail Lee - Period 1 - Chemistry
 
 | Differences in electronegativity | Type of Bonds     | Sharing    |
 | -------------------------------- | ----------------- | ---------- |
-| ≤ 0.4                            | Nonpolar covalent | Equal      |
-| 0.4 < and ≤ 2.0                  | polar covalent    | unequal    |
+| ≤ 0.4                            | Nonpolar  | Equal      |
+| 0.4 < and ≤ 2.0                  | polar     | unequal    |
 | > 2.0                            | ionic             | NO sharing |
