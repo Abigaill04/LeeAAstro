@@ -16,7 +16,8 @@ Abigail Lee - Period 1 - Chemistry
 
 Ruler 1 Guess - 1.4cm
 
-![Ruler1 Image](./images/ruler1.png)
+![Ruler1 Image](/pages/markdown/images/ruler1.png)
+
 
 
 
