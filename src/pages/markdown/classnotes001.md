@@ -16,7 +16,7 @@ Abigail Lee - Period 1 - Chemistry
 
 Ruler 1 Guess - 1.4cm
 
-![Ruler1 Image](/pages/markdown/images/ruler1.png)
+![Ruler1 Image](/src/pages/markdown/images/ruler1.png)
 
 
 
@@ -26,7 +26,7 @@ Number one is a certain digit while four is an uncertain digit
 
 Ruler 2 Guess- 1.52cm
 
-![Ruler2 Image](/pages/markdown/images/ruler2.png)
+![Ruler2 Image](/src/pages/markdown/images/ruler2.png)
 
 
 
@@ -52,7 +52,7 @@ Proper Measurement needs to have one estimated digit, no more no less
 - Read the scale with your eyes at the level of the liquid
 - Read from the bottom of the meniscus (curve)
 
-
+  ![Graduated Cylinder](/src/pages/markdown/images/graduatedcylinder.png)
 
   ## Important
 
