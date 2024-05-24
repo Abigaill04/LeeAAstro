@@ -51,6 +51,3 @@ Abigail Lee - Period 1 - Chemistry
 | ≤ 0.4             | Nonpolar      | Equal      |
 | 0.4 < and ≤ 2.0   | polar         | unequal    |
 | > 2.0             | ionic         | NO sharing |
-
-
-![Arrow Representation](/src/pages/markdown/images/arrow.png)
