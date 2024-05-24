@@ -5,7 +5,6 @@ class: "Chemistry"
 date: 2024-05-15
 author: "Abigail Lee"
 layout: "../../layouts/BaseLayout.astro"
-
 ---
 
 # Scientific Measurement
@@ -18,17 +17,11 @@ Ruler 1 Guess - 1.4cm
 
 ![Ruler1 Image](/src/pages/markdown/images/ruler1.png)
 
-
-
-
-
 Number one is a certain digit while four is an uncertain digit
 
 Ruler 2 Guess- 1.52cm
 
 ![Ruler2 Image](/src/pages/markdown/images/ruler2.png)
-
-
 
 Number one and five is a certain digit and two is an uncertain digit.
 
