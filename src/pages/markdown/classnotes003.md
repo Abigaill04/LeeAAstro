@@ -26,19 +26,19 @@ Abigail Lee - Period 3 - English
 
 #### Logos
 
-![Logos](/public/images/logos.png)
+![Logos](./images/logos.png)
 
 In this advertisment, they use statistics to pursade their audience to stop smoking.
 
 #### Ethos
 
-![Ethos](/public/images/ethos.png)
+![Ethos](./images/ethos.png)
 
 In this commerical, having a certify dentist recommend their produce help convince their consumer to buy their product.
 
 #### Pathos
 
-![Patho](/public/images/patho.png)
+![Patho](./images/patho.png)
 
 This image is an example of pathos as they are appealing to your emotions. They are using images of a sad puppy to convince people to adopt them.
 

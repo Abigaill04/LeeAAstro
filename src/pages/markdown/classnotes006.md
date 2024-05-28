@@ -29,4 +29,4 @@ The mole provides a bridge that allows us to compare numbers of particles by mea
 The atomic mass units on the periodic table are the number of grams per mole (g/mol)!
 This is also called MOLAR MASS.
 
-![Mole](/public/images/mole.png)
+![Mole](./images/mole.png)
