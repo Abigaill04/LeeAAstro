@@ -38,4 +38,4 @@ We use coordinating conjuction to combine two complete thoughts to create a **co
 
 ![Compound Sentence](./images/Compoundsentence.jpg)
 
-The coordinating conjuction, so, connected the two complete thought to create a compound sentence.
+The coordinating conjuction, so, connected the two complete thought to create a compound sentence, which results in a complete sentence.
