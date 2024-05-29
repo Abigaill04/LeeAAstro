@@ -36,6 +36,6 @@ We use coordinating conjuction to combine two complete thoughts to create a **co
 
 ## Example
 
-![Compound Sentence](./images/Compoundsentence.jpg)
+![Compound Sentence](./images/compoundsentence.jpg)
 
 The coordinating conjuction, so, connected the two complete thought to create a compound sentence, which results in a complete sentence.
