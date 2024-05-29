@@ -1,8 +1,9 @@
 ---
-import BaseLayout from "../../layouts/BaseLayout.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
 
 
-const mdNotes = await Astro.glob("./*.md");
+
+const mdNotes = await Astro.glob("../pages/markdown/*.md");
 
 ---
 
