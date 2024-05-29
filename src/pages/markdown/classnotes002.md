@@ -16,7 +16,7 @@ Abigail Lee - Period 4 - Ceramics
 
 Tea Bowl: A centerpiece of a tea ceremony; has no handle and is meant for drinking tea.
 
-![Tea Bowl](./images/teabowl.jpg)
+![Tea Bowl](./images/teabowl.JPG)
 
 
 
@@ -36,7 +36,7 @@ The tea bowl was made from two different colors of clay. This is done by placing
 
 A vessels/wares used in the tea ceremony is a tea scoop. It’s name is Chashaku and it is used to scoop the powder tea from the natsume (wooden container that stores Matcha).
 
-![Tea Scoop](./images/chashakuscoop.png)
+![Tea Scoop](./images/chashakuscoop.PNG)
 
 ---
 
