@@ -1,0 +1,38 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+
+const mdNotes = await Astro.glob("./*.md");
+
+---
+
+<BaseLayout>
+
+<h2>Class Notes - Markdown Files </h2>
+
+
+<ul>
+
+    {mdNotes.map( (note) => ( <li> <a href={note.url}> {note.frontmatter.title} </a></li>) )}
+
+</ul>
+
+</BaseLayout>
+
+<style>
+
+ul
+{
+    /* list-style-type:none; */
+    padding: 0;
+}
+
+a{
+    color:black;
+ }
+
+h1
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+</style>
