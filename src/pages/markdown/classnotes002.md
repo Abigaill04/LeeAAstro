@@ -15,7 +15,7 @@ Abigail Lee - Period 4 - Ceramics
 
 Tea Bowl: A centerpiece of a tea ceremony; has no handle and is meant for drinking tea.
 
-![Tea Bowl](./images/teabowl.jpg "teabowl")
+![Tea Bowl](./images/teabowl.png "teabowl")
 
 ### Attention to detail
 
