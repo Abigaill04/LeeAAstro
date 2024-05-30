@@ -17,9 +17,9 @@ Abigail Lee - Period 1 - Chemistry
 
 # Nonpolar bonds
 
-| Nonpolar                                         | Explanation                                                                                                                    |
-| ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ |
-| ![Nonpolar example](./images/nonpolar.PNG) | When there is no difference in electronegativity between the elements in a covalent bond, the atoms share the electron evenly. |
+| Nonpolar                                                    | Explanation                                                                                                                    |
+| ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| ![Nonpolar example](./images/nonpolar.png "nonpolar bonds") | When there is no difference in electronegativity between the elements in a covalent bond, the atoms share the electron evenly. |
 
 - Wheh electrons are shared evenly, they orbit the same distance from the nucleus.
 - This means that one side of the bond is NOT more negative or positive than the other side of the bond.
@@ -27,16 +27,16 @@ Abigail Lee - Period 1 - Chemistry
 
 # Polar Bonds
 
-| Polar                                      | Explanation                                                                                                                                                                                                                                                                                    |
-| ------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Polar example](./images/polar.PNG) | The electronegativity of oxygen is 3.5 Puling but the hyrdogen's electronegativity is only 2.1 Pauling. This means that in a water molecule, oxygen does not share the electrons evenly in its two covalently bonds with hydrogen. The shared electrons orbit closer to oxygen than hyrdrogen. |
+| Polar                                              | Explanation                                                                                                                                                                                                                                                                                    |
+| -------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Polar example](./images/polar.png "polar bonds") | The electronegativity of oxygen is 3.5 Puling but the hyrdogen's electronegativity is only 2.1 Pauling. This means that in a water molecule, oxygen does not share the electrons evenly in its two covalently bonds with hydrogen. The shared electrons orbit closer to oxygen than hyrdrogen. |
 
 - Polar covalent bonds have slight charges on opposite side of the bond caused by the uneven sharing of electrons.
 
-| How polar charges are represented                 | Description                                   |
-| ------------------------------------------------- | --------------------------------------------- |
-| ![Delta Representation](./images/delta.PNG) | The first way the charges can be represented  |
-| ![Arrow Representation](./images/arrow.PNG) | The second way the charges can be represented |
+| How polar charges are represented                   | Description                                   |
+| --------------------------------------------------- | --------------------------------------------- |
+| ![Delta Representation](./images/delta.png "Delta") | The first way the charges can be represented  |
+| ![Arrow Representation](./images/arrow.png "Arrow") | The second way the charges can be represented |
 
 - Polar bonds can also result in an entire molecule becoming a polar bond.
 

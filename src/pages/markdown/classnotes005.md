@@ -5,7 +5,6 @@ class: "English III"
 date: 2024-05-15
 author: "Abigail Lee"
 layout: "../../layouts/BaseLayout.astro"
-
 ---
 
 # Compound Sentence - Review Notes
@@ -36,6 +35,6 @@ We use coordinating conjuction to combine two complete thoughts to create a **co
 
 ## Example
 
-![Compound Sentence](./images/compoundsentence.JPG)
+![Compound Sentence](./images/compoundsentence.jpg "sentence ex")
 
 The coordinating conjuction, so, connected the two complete thought to create a compound sentence, which results in a complete sentence.

@@ -5,7 +5,6 @@ class: "Chemistry"
 date: 2024-05-15
 author: "Abigail Lee"
 layout: "../../layouts/BaseLayout.astro"
-
 ---
 
 # The Mole Concept
@@ -29,4 +28,4 @@ The mole provides a bridge that allows us to compare numbers of particles by mea
 The atomic mass units on the periodic table are the number of grams per mole (g/mol)!
 This is also called MOLAR MASS.
 
-![Mole](./images/mole.PNG)
+![Mole](./images/mole.png "Mole Map")

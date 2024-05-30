@@ -5,7 +5,6 @@ class: "English III"
 date: 2024-05-15
 author: "Abigail Lee"
 layout: "../../layouts/BaseLayout.astro"
-
 ---
 
 # Rhetorical Appeals (Rhetoric)
@@ -26,19 +25,19 @@ Abigail Lee - Period 3 - English
 
 #### Logos
 
-![Logos](./images/logos.PNG)
+![Logos](./images/logos.png "logos")
 
 In this advertisment, they use statistics to pursade their audience to stop smoking.
 
 #### Ethos
 
-![Ethos](./images/ethos.PNG)
+![Ethos](./images/ethos.png "ethos")
 
 In this commerical, having a certify dentist recommend their produce help convince their consumer to buy their product.
 
 #### Pathos
 
-![Patho](./images/patho.PNG)
+![Patho](./images/patho.png "patho")
 
 This image is an example of pathos as they are appealing to your emotions. They are using images of a sad puppy to convince people to adopt them.
 

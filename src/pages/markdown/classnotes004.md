@@ -5,7 +5,6 @@ class: "Chemistry"
 date: 2024-05-15
 author: "Abigail Lee"
 layout: "../../layouts/BaseLayout.astro"
-
 ---
 
 # Density and Phases of Matter
@@ -20,9 +19,10 @@ The density of most gases is thousands of time smaller than most liquids and sol
 
 Compared to solids and liquids the particles of a gas are extremely far apart!
 
-![Graph and particle diagram](./images/graph.PNG)
+![Graph and particle diagram](./images/graph.png "graph")
 
-* This is an example.
+- This is an example.
+
 ---
 
 ## Important
@@ -34,4 +34,4 @@ _Density (not weight!) determines if something will sink of float._
 
 ### Example:
 
-![Hot air ballon](./images/hotairballon.PNG)
+![Hot air ballon](./images/hotairballon.png "airbollon")
