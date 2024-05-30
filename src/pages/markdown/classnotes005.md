@@ -33,8 +33,4 @@ S - SO
 
 We use coordinating conjuction to combine two complete thoughts to create a **compound sentence!**
 
-## Example
-
-![Compound Sentence](./images/compoundsentence.jpg "sentence ex")
-
 The coordinating conjuction, so, connected the two complete thought to create a compound sentence, which results in a complete sentence.
